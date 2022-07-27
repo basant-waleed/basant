@@ -1,0 +1,51 @@
+
+
+.container-fluid{
+  display: flex;  
+  justify-content:space-between;
+  color:saddlebrown!important;
+  text-align: center;
+}
+.container{
+    padding: 4em;
+}
+.container button {
+background-color: chocolate!important;
+
+}
+.container img{
+    border-radius: 50%;
+    width: 30vw;
+    height:40vh ;
+}
+.container h2 {
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.grid {display: flex;
+    justify-content:space-evenly;
+
+}
+.card1{
+    grid-area: card1;
+    background-color: white;
+    border: solid ;
+    
+}
+.card2{
+    grid-area: card2;
+    background-color:white;
+    border: solid;
+}
+.card3{
+    grid-area: card3;
+    background-color: white;
+    border: solid;
+}
+.grid img{
+    height: 200px;
+    object-fit: cover;
+}
